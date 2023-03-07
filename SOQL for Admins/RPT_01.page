@@ -27,7 +27,8 @@
   <body>
     <div class="container">
       <h1>My Contacts</h1>
-
+      <h2>Welcome, {!$User.FirstName} {!$User.LastName}!</h2>
+      <p>Your email address is: {!$User.Email}</p>
       <p>This is a very simple page.</p>
       <div><button class="btn btn-success">Go</button></div>
       <table class="table table-hover">
