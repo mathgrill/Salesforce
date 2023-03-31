@@ -4,6 +4,7 @@ public class MyController {
   public MyController() {
     contacts = [SELECT Id, Name, Email, MobilePhone FROM Contact];
   }
+
 }
 
 /*
